@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Código de Exemplo</title>
+    <title>Programação para Web - Aula 1</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>Exemplo de uma página no GitHub.</h1>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">EME "Profª <span class="cabecalho__titulo__azul">Alcina</span> <span class="cabecalho__titulo__vermelho">Dantas</span> <span class="cabecalho__titulo__amarelo">Feijão</span> "</h1>
+        <nav class="cabecalho__menu"> 
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Nossa Escola</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Programador Front-End: <strong class="titulo-destaque">O Mago por Trás da Magia da Internet</strong></h1>
+            <p class="apresentacao__conteudo__texto">Cansado de ser apenas um espectador passivo no mundo digital? Quer dar vida às suas ideias e moldar a experiência online de milhões? Então a profissão de programador front-end é perfeita para você!</p>
+        </section>
+        <img class="apresentacao__imagem" src="img/VSCode on Ubuntu Contorno.jpeg" alt="Usando o VSCode no Ubuntu.">
+    </main>
+    <section class="ementa">
+        <h2 class="ementa__titulo">Seja o maestro da sua própria orquestra digital!:</h2>
+        <ul class="ementa__topicos">
+            <li class="ementa__topicos__item">Crie interfaces web interativas e visualmente deslumbrantes que encantam e cativam os usuários.</li>
+            <li class="ementa__topicos__item">Domine as linguagens de programação HTML, CSS e JavaScript como um ninja, transformando conceitos em realidade.</li>
+            <li class="ementa__topicos__item">Faça a ponte entre o design e a funcionalidade, dando vida às visões dos designers e garantindo uma experiência impecável para o público.</li>
+            <li class="ementa__topicos__item">Trabalhe em projetos desafiadores e inovadores, desde sites e blogs até aplicativos web e e-commerce.</li>
+            <li class="ementa__topicos__item">Seja um solucionador de problemas nato, desvendando bugs e otimizando o desempenho das interfaces.</li>
+            <li class="ementa__topicos__item">Aprofunde-se em frameworks e bibliotecas, expandindo seus horizontes e aprimorando suas habilidades.</li>
+        </ul>
+    </section>
+    <footer class="rodape">
+        <p class="rodape__texto">EME "Profª Alcina Dantas Feijão"</p>
+        <div class="rodape__links">
+            <h2 class="rodape__links__subtitulo">Acesse nossas redes:</h2>
+            <a class="rodape__links__navegacao" href="https://www.instagram.com">
+                <img src="./img/Instagram.png" class="rodape__links__navegacao__imagem">
+                Instagram
+            </a>
+            <a class="rodape__links__navegacao" href="https://br.linkedin.com">
+                <img src="./img/Linkedin.png" class="rodape__links__navegacao__imagem">
+                Linkedin
+            </a>
+            <a class="rodape__links__navegacao" href="https://br.pinterest.com">
+                <img src="./img/Pinterest.png" class="rodape__links__navegacao__imagem">
+                Pinterest
+            </a>
+        </div>
+    </footer>
     
 </body>
 </html>
